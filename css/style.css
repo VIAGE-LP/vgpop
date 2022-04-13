@@ -1,0 +1,58 @@
+
+.fv {
+    width: 100%;
+    
+}
+.fv img {
+    width: 640px;
+    margin: 0 auto;
+    display: block;
+}
+.fv .mainview{
+    width: 840px;
+}
+
+@media screen and (max-width: 768px){
+    .fv img {
+        width: 100%;
+    }
+    .fv .mainview{
+        width: 100%;
+    }
+}
+
+#location{
+    width:640px;
+    height:500px;
+    border:0;    
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+@media screen and (max-width: 768px){
+    #location{
+        width:100%;
+        height:400px;
+    }
+}
+
+ .sns_btn {
+     text-align: center;
+ }
+ .sns_btn ul li{
+     display: inline-block;
+     margin: 0 8px;
+     cursor: pointer;
+ }
+
+.SP{
+    display: none;
+}
+@media screen and (max-width: 768px){
+.PC{
+    display: none;
+}
+.SP{
+    display: block;
+}
+}
