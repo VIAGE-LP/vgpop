@@ -1,38 +1,22 @@
-body, div,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
-fieldset, form, label, legend, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section,
-summary, hgroup {
-  margin: 0;
-  padding: 0;
-  border: 0;
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
 }
-
-a:active,
-a:hover {
-  outline: 0;
+.main {
+width: 100%;
+margin: 0 auto;
 }
-.fv {
-    width: 100%;
-    
+.PC img {
+width: 100%;
+display: block;
+margin: 0 auto;
 }
-.fv img {
-    width: 640px;
-    margin: 0 auto;
-    display: block;
-}
-.fv .mainview{
-    width: 840px;
-}
-
-@media screen and (max-width: 768px){
-    .fv img {
-        width: 100%;
-    }
-    .fv .mainview{
-        width: 100%;
-    }
+.SP img {
+width: 100%;
+display: block;
+margin: 0 auto;
 }
 
 #location{
