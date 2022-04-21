@@ -35,7 +35,7 @@ margin: 0 auto;
 .logo{
   width: 200px;
   height: 54px;
-  background-image: url(../images/logo.png);
+  background-image: url(../images/logo.svg);
   display: block;
   text-indent: 101%;
   overflow: hidden;
