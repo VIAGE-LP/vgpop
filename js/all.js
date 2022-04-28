@@ -16,9 +16,9 @@ $('.navbar-nav>li>a[href="#shopsale"]').on('click', function () {
         scrollTop: $('#shopsale').offset().top-70,
      }, 500);
 });
-$('.navbar-nav>li>a[href="#reserve"]').on('click', function () {
+$('.navbar-nav>li>a[href="#oneday"]').on('click', function () {
     $('html,body').animate({
-        scrollTop: $('#reserve').offset().top-70,
+        scrollTop: $('#oneday').offset().top-70,
      }, 500);
 });
 $('.navbar-nav>li>a[href="#traffic"]').on('click', function () {
