@@ -16,11 +16,6 @@ $(document).ready(function () {
             scrollTop: $('#shopsale').offset().top - 70,
         }, 500);
     });
-    $('.navbar-nav>li>a[href="#oneday"]').on('click', function () {
-        $('html,body').animate({
-            scrollTop: $('#oneday').offset().top - 70,
-        }, 500);
-    });
     $('.navbar-nav>li>a[href="#traffic"]').on('click', function () {
         $('html,body').animate({
             scrollTop: $('#traffic').offset().top - 70,
